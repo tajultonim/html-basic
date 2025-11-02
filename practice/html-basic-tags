@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>I'm a King</title>
+
+    <style>
+        .r {
+            color: red;
+            font-weight: bold;
+            text-decoration: underline;
+            background-color: aqua;
+            font-style: italic;
+        }
+        
+        #dog {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This thi an Article</h1>
+    <h3>Author Name</h3>
+    <hr />
+
+    <p class="r" id="abc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <br />Quo minima non aspernatur ex nostrum. Nulla magni explicabo eius numquam qui quae quibusdam rem perferendis, soluta, voluptas reiciendis hic natus itaque.
+    </p>
+
+    <div id="dog">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus sit, eius provident laboriosam id ipsa velit nisi reprehenderit dicta nesciunt amet vel esse eveniet optio voluptatibus inventore dolore possimus? Vero.
+        </p>
+
+        <img src="https://picsum.photos/id/237/536/354" height="100px" width="500px" />
+    </div>
+
+    <p>Click this link to go to <a href="https://www.google.com">google</a>.</p>
+
+    <table border="1">
+        <tr>
+            <th class="r">Name</th>
+            <th>Age</th>
+            <th colspan="2">Class</th>
+        </tr>
+        <tr>
+            <td class="r">Alex</td>
+            <td rowspan="3">20</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Devid</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Neo</td>
+            <td>Ms</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <h3>Contact me</h3>
+    <a href="https://www.facebook.com/tajultonim">Facebook</a>
+    <br />
+    <a href="https://www.instagram.com/tajultonim">Instagram</a>
+</body>
+
+</html>
