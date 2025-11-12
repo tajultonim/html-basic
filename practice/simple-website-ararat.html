@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ARARAT Architechture</title>
+
+    <style>
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .title {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        
+        .center-element {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .git-btn {
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        body {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        
+        .center-element>a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .main-body-image {
+            height: 80vh;
+            width: 100%;
+            background-image: url(https://www.shutterstock.com/image-photo/high-rise-buildings-office-area-600nw-2474260777.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .main-body-image p {
+            color: white;
+            text-align: center;
+        }
+        
+        .main-title {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+        
+        .see-projects-btn {
+            border: 2px solid white;
+            background-color: transparent;
+            padding: 20px;
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .flex-box-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- This is a header -->
+
+    <div class="header">
+        <div class="right-element">
+            <p class="title">ARARAT</p>
+        </div>
+        <div class="center-element">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <div class="left-element">
+            <button class="git-btn">GET IN TOUCH</button>
+        </div>
+    </div>
+
+    <!-- This is the main body-->
+
+    <div class="main-body-image">
+        <div>
+            <p class="main-title">WE DESIGN YOUR SPACE</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo quidem cupiditate pariatur assumenda
+            </p>
+            <div class="flex-box-wrapper">
+                <button class="see-projects-btn">SEE OUR PROJECTS</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
